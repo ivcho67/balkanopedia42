@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Централен Балкански масив (Регион 42) — Балканопедия</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wiki-top-bar">
+        <div class="wiki-logo-section">
+            <span class="wiki-logo-icon"></span>
+            <div class="wiki-logo-text">
+                <span class="main-logo">БалканОпедия</span>
+                <span class="sub-logo">Свободната енциклопедия</span>
+            </div>
+        </div>
+        <div class="wiki-search-box">
+            <input type="text" value="България" readonly>
+            <button class="search-btn"></button>
+        </div>
+    </div>
+
+    <div class="wiki-main-container">
+        <div class="wiki-left-nav">
+            <div class="nav-group">
+                <h3>Съдържание</h3>
+                <ul>
+                    <li><a href="javascript:void(0);" data-sec="main" onclick="loadSection('main')" class="active">1. Начало и Наименование</a></li>
+                    <li><a href="javascript:void(0);" data-sec="geography" onclick="loadSection('geography')">2. Граници и География</a></li>
+                    <li><a href="javascript:void(0);" data-sec="history" onclick="loadSection('history')">3. История</a></li>
+                    <li><a href="javascript:void(0);" data-sec="economy" onclick="loadSection('economy')">4. Стопанство</a></li>
+                    <li><a href="javascript:void(0);" data-sec="society" onclick="loadSection('society')">5. Население и Общество</a></li>
+                    <li><a href="javascript:void(0);" data-sec="culture" onclick="loadSection('culture')">6. Култура, Просвета и НИРД</a></li>
+                    <li><a href="javascript:void(0);" data-sec="regions" onclick="loadSection('regions')">7. Административни региони</a></li>
+                </ul>
+            </div>
+            <div class="nav-group project-credits">
+                <p>Проект на ученици Ивайло Митовски и Тодор Чакъров</p>
+                <p>ПГЕЕ 9б клас</p>
+                <p>Курс: Алтернативна история</p>
+            </div>
+        </div>
+
+        <div class="wiki-page-content">
+            <div class="wiki-tabs-container">
+                <div class="left-tabs">
+                    <span class="tab active">Статия</span>
+                    <span class="tab link-style">Беседа</span>
+                </div>
+                <div class="right-tabs">
+                    <span class="tab active">Преглед</span>
+                    <span class="tab link-style">Редактиране</span>
+                    <span class="tab link-style">Редактиране на кода</span>
+                    <span class="tab link-style">История</span>
+                </div>
+            </div>
+
+            <div class="wiki-article" id="wikiArticle">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
